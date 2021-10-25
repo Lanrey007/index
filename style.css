@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body::before{
+    display: block;
+     content: "";
+     height: 70px;
+ }
+ .bg-dak{
+    background: rgb(25,14,213);
+    background: linear-gradient(90deg, rgba(25,14,213,1) 0%, rgba(20,12,206,1) 25%, rgb(43, 37, 221) 33%, rgb(30, 23, 231) 42%,  rgb(5, 67, 184) 100%);
+ }
+ .dak{
+     color: rgb(25,14,213);
+ }
+ .g{
+     color: aliceblue;
+ }
+.pt{
+    padding-top: 80px;
+}
+ .fa-li{
+     list-style-type: none;
+ }
+ .mz{
+     margin-top: -90px;
+ }
+.d:hover{
+ color: #0575E6;
+}
+.lea{
+    font-size: 1rem;
+}
+ @media (max-width:424px){
+    .m{
+        background-image: url(/image/sorry-cant-talk-right-now-portrait-smiling-handsome-man-busy-talking-phone-hold-mobile-phone-cover-dynamic-say-something-you-having-conversation-white-wall_176420-33937-removebg-preview.png);
+   background-position: top;
+    }
+
+}
